@@ -14,7 +14,7 @@ st.sidebar.success("Select a pages above.")
 img_lottie_animation = ("images/download.png")
 st.image(img_lottie_animation)
 st.write("Welcome to my multi page")
-st.write("""In this webpage you can buy, 
+st.write("""In this webpage you can 
  discover and see my work""")
 st.success("Check in the sidebar for more apps!")
 
