@@ -26,11 +26,9 @@ st.write("I am a 9 years old boy who is learning how to code on programing langu
 st.title("My Goals")
 
 st.write("""My Goals are to
-- Be the best at programing languages
 - To learn about python
 - To make games in python
-- Make money
-- Have the best seller games"""
+- learn how to use other stuff that goes with python like streamlit"""
          )
 
 # ---- This webpage ----
