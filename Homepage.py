@@ -36,7 +36,7 @@ st.write("""My Goals are to
 # ---- This webpage ----
 st.title("About this webpage")
 
-st.write("This webpage was made using python *A programing language*, streamlit* A faster way to build and share data apps*")
+st.write("This webpage was made using python *A programing language*, streamlit *A faster way to build and share data apps*")
 
 img_streamlit = ("images/streamlit.png")
 st.image(img_streamlit)

@@ -20,6 +20,9 @@ def response_generator():
 
 st.title("Chatbot")
 
+img_lottie_chat = ("images/Chat.png")
+st.image(img_lottie_chat)
+
 # Initialize chat history
 if "messages" not in st.session_state:
     st.session_state.messages = []
