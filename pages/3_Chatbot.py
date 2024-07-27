@@ -41,3 +41,17 @@ if prompt := st.chat_input("What is up?"):
         response = st.write_stream(response_generator())
     # Add assistant response to chat history
     st.session_state.messages.append({"role": "assistant", "content": response})
+
+# ---- Hide Streamlit Logo ----
+
+hide_st_style = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style>
+"""
+
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
+st.logo("asset/logo.png")
+st.sidebar.text("Created by 💖 Williams")
