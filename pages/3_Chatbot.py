@@ -1,16 +1,15 @@
+import streamlit as st
 import random
 import time
-
-import streamlit as st
 
 
 # Streamed response emulator
 def response_generator():
     response = random.choice(
         [
-            "Hey there! Need help to make a chatbot? click here 'https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps'",
-            "Hi need ideas for coding in scratch click here https://scratch.mit.edu/ideas",
-            "Hello! want to see my scratch projects click here https://scratch.mit.edu/users/Williamsagb/projects/",
+            "Hello there! How can I assist you today?",
+            "Hi, human! Is there anything I can help you with?",
+            "Do you need help?",
         ]
     )
     for word in response.split():
@@ -19,9 +18,6 @@ def response_generator():
 
 
 st.title("Chatbot")
-
-img_lottie_chat = ("images/Chat.png")
-st.image(img_lottie_chat)
 
 # Initialize chat history
 if "messages" not in st.session_state:
