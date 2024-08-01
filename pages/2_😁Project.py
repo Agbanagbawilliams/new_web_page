@@ -70,6 +70,7 @@ st.text_input("Message")
 submit_button = st.button("Submit")
 if submit_button:
     st.success("Message successfully sent")
+    st.balloons()
 
  # ---- Hide Streamlit Logo ----
 

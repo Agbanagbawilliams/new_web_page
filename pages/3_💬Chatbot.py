@@ -1,3 +1,4 @@
+
 import streamlit as st
 import random
 import time
@@ -16,8 +17,9 @@ def response_generator():
         yield word + " "
         time.sleep(0.05)
 
+st.set_page_config(page_title="Chatbot", page_icon="💬")
 
-st.title("Chatbot")
+st.title("ChatBot")
 
 # Initialize chat history
 if "messages" not in st.session_state:
