@@ -11,6 +11,7 @@ def response_generator():
             "Hello there! How can I assist you today?",
             "Hi, human! Is there anything I can help you with?",
             "Do you need help?",
+            "Ola",
         ]
     )
     for word in response.split():
@@ -42,15 +43,14 @@ if prompt := st.chat_input("What is up?"):
     # Add assistant response to chat history
     st.session_state.messages.append({"role": "assistant", "content": response})
 
-# ---- Hide Streamlit Logo ----
-
+# ---- HIDE STREAMLIT STYLE ----
 hide_st_style = """
-<style>
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-</style>
-"""
-
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 st.logo("asset/logo.png")

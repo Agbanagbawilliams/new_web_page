@@ -71,16 +71,16 @@ submit_button = st.button("Submit")
 if submit_button:
     st.success("Message successfully sent")
     st.balloons()
+    st.feedback()
 
- # ---- Hide Streamlit Logo ----
-
+    # ---- HIDE STREAMLIT STYLE ----
 hide_st_style = """
-<style>
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-</style>
-"""
-
+             <style>
+             #MainMenu {visibility: hidden;}
+             footer {visibility: hidden;}
+             header {visibility: hidden;}
+             </style>
+             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 # --- LOGO ---
