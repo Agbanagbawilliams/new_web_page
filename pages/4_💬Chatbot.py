@@ -1,8 +1,8 @@
-
 import streamlit as st
 import random
 import time
 
+st.set_page_config(page_title="Chatbot", page_icon="💬")
 
 # Streamed response emulator
 def response_generator():
@@ -16,8 +16,6 @@ def response_generator():
     for word in response.split():
         yield word + " "
         time.sleep(0.05)
-
-st.set_page_config(page_title="Chatbot", page_icon="💬")
 
 st.title("ChatBot")
 

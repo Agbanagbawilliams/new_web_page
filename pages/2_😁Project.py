@@ -83,5 +83,6 @@ footer {visibility: hidden;}
 
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
+# --- LOGO ---
 st.logo("asset/logo.png")
 st.sidebar.text("Created by 💖 Williams")
