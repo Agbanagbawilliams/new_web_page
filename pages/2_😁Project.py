@@ -2,7 +2,7 @@ from PIL import Image
 import streamlit as st
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
-st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="My Webpage", page_icon="🏅", layout="wide")
 
 # ---- LOAD ASSETS ----
 img_contact_form = Image.open("images/yt contact_form.png")
@@ -42,7 +42,7 @@ with st.container():
                 and in scratch you use tools/blocks👍.
                 """)
 
-        st.subheader("Using scratch tutorials😉")
+        st.subheader("Using scratch tutorials")
         st.write("Scratch tutorials helps you to use and understand Scratch😉.")
         st.markdown("Tutorials https://scratch.mit.edu/projects/1046994874/editor")
 
@@ -60,7 +60,7 @@ Github🐈‍⬛https://github.com/dashboard/
 
 # ----CONTACT ME ----
 st.write("---")
-st.header(" Contact Me!")
+st.header("Contact Me!")
 
 st.text_input("First Name")
 st.text_input("Last Name")
@@ -70,10 +70,8 @@ st.text_input("Message")
 submit_button = st.button("Submit")
 if submit_button:
     st.success("Message successfully sent")
-    st.balloons()
-    st.feedback()
 
-    # ---- HIDE STREAMLIT STYLE ----
+# ---- HIDE STREAMLIT STYLE ----
 hide_st_style = """
              <style>
              #MainMenu {visibility: hidden;}
@@ -83,6 +81,4 @@ hide_st_style = """
              """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
-# --- LOGO ---
-st.logo("asset/logo.png")
 st.sidebar.text("Created by 💖 Williams")
