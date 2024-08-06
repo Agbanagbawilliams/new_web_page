@@ -20,7 +20,6 @@ st.write("I am a 10 years old boy who love to program in programing language")
 st.write("---")
 # ---- GOALS ----
 st.subheader("Goals")
-
 st.write("""
 - To learn about python
 - To learn about streamlit
