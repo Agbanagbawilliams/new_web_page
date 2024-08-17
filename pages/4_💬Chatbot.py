@@ -8,10 +8,10 @@ st.set_page_config(page_title="Chatbot", page_icon="💬")
 def response_generator():
     response = random.choice(
         [
-            "Hello there! How can I assist you today?",
-            "Hi, human! Is there anything I can help you with?",
-            "Do you need help?",
-            "Ola",
+            "Hi Human remember to follow me on scratch https://scratch.mit.edu/users/Williamsagb/",
+            "Hello friend follow do not forget to follow me on scratch https://scratch.mit.edu/users/Williamsagb/",
+            "Hi friend play my games that i created https://scratch.mit.edu/users/Williamsagb/",
+            "Hi do not forget to like my games and project https://scratch.mit.edu/users/Williamsagb/",
         ]
     )
     for word in response.split():
@@ -30,7 +30,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # Accept user input
-if prompt := st.chat_input("What is up?"):
+if prompt := st.chat_input("Text here?"):
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
     # Display user message in chat message container

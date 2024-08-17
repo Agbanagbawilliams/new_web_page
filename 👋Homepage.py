@@ -9,7 +9,7 @@ st.set_page_config(
 st.title("Homepage")
 st.write("Hi i am Williams")
 st.sidebar.success("Select a pages above.")
-
+Video = "https://www.youtube.com/watch?v=fWjsdhR3z3c"
 st.write("Welcome to my multi page")
 st.write("""In this webpage you can 
  discover, Buy and see my work""")
@@ -47,17 +47,16 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 st.sidebar.text("Created by 💖 Williams")
-# --- FAQ ---
-st.write("")
+
+# ----CONTACT ME ----
 st.write("---")
-st.subheader("🙋‍♂️FAQ")
-faq = {
-    "Fun fact 1":"Did you know that this web app was made using python and streamlit",
-    "Fun fact 2":"Streamlit is a faster way to build and share data apps😁",
-    "Fun fact 3":"Python is a programing language🖥",
-    "Fun fact 4":"Did you know that i am a Good at scratch😎",
-    "Fun fact 5":"Soccer is my most favorite sport⚽",
-}
-for question, answer in faq.items():
-    with st.expander(question):
-        st.write(answer)
+st.header("Contact Me📬")
+
+st.text_input("First Name")
+st.text_input("Last Name")
+number = st.slider("Age", min_value=0, max_value=100)
+st.text_input("Email")
+st.text_input("Message")
+submit_button = st.button("Submit")
+if submit_button:
+    st.success("Message successfully sent")

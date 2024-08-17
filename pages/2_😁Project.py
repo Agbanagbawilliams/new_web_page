@@ -19,7 +19,6 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.header("What I do🤔")
-        st.write("##")
         st.write("What i do is reading, programing, math, english, sports, and Traveling.")
         st.write(" If you want to see my Scratch profile https://scratch.mit.edu/users/Williamsagb/")
         st.write(" If you see my duolingo profile https://www.duolingo.com/profile/Williamsagba")
@@ -57,19 +56,7 @@ Duolingo🐦https://www.duolingo.com/
 
 Github🐈‍⬛https://github.com/dashboard/
 """)
-
-# ----CONTACT ME ----
 st.write("---")
-st.header("Contact Me!")
-
-st.text_input("First Name")
-st.text_input("Last Name")
-number = st.slider("Age", min_value=0, max_value=100)
-st.text_input("Email")
-st.text_input("Message")
-submit_button = st.button("Submit")
-if submit_button:
-    st.success("Message successfully sent")
 
 # ---- HIDE STREAMLIT STYLE ----
 hide_st_style = """
