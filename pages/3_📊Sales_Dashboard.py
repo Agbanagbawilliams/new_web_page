@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import replicate
 
 st.title("📊Sales Dashboard")
 
