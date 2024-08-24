@@ -11,7 +11,7 @@ st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootst
 
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #3498DB;">
-  <a class="navbar-brand" href="https://scratch.mit.edu/users/Williamsagb/" target="_blank">Data Professor</a>
+  <a class="navbar-brand" href="https://scratch.mit.edu/users/Williamsagb/" target="_blank">Multi app</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -35,7 +35,6 @@ st.markdown("""
 st.title("Homepage")
 st.write("Hi i am Williams")
 st.sidebar.success("Select a pages above.")
-Video = "https://www.youtube.com/watch?v=fWjsdhR3z3c"
 st.write("Welcome to my multi page")
 st.write("""In this webpage you can 
  discover, Buy and see my work""")
@@ -71,8 +70,6 @@ hide_st_style = """
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
-
-st.sidebar.text("Created by 💖 Williams")
 
 # ----CONTACT ME ----
 st.write("---")
