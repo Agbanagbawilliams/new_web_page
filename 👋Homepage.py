@@ -22,7 +22,7 @@ st.markdown("""
         <a class="nav-link" href="https://agbanagbawilliams-mywebpage-app-vqxbm4.streamlit.app/" target="_blank">Project</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://newwebpage-nr9d95duhpvvbdx6mqjedc.streamlit.app/Project" target="_blank">Sales_Dashboard</a>
+        <a class="nav-link" href="https://salesdashboard.pythonandvba.com/" target="_blank">Sales_Dashboard</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://blank-app-quobxypwoytpuhz3cchas6.streamlit.app/" target="_blank">Chatbot</a>
