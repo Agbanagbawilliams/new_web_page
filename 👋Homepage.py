@@ -34,7 +34,6 @@ st.markdown("""
 # Start Homepage
 st.title("Homepage")
 st.write("Hi i am Williams")
-st.sidebar.success("Select a pages above.")
 st.write("Welcome to my multi page")
 st.write("""In this webpage you can 
  discover, Buy and see my work""")
