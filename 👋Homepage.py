@@ -11,20 +11,22 @@ st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootst
 
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #3498DB;">
-  <a class="navbar-brand" href="https://scratch.mit.edu/users/Williamsagb/" target="_blank">Data Professor</a>
+  <a class="navbar-brand" target="_blank">Multi app</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
+     <li class="nav-item active">
+        <a class="nav-link" href="https://newwebpage-nr9d95duhpvvbdx6mqjedc.streamlit.app/" target="_blank">Home</a>
       <li class="nav-item active">
-        <a class="nav-link disabled" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="https://newwebpage-nr9d95duhpvvbdx6mqjedc.streamlit.app/" target="_blank">Project</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://newwebpage-nr9d95duhpvvbdx6mqjedc.streamlit.app/" target="_blank">Homepage</a>
+        <a class="nav-link" href="https://newwebpage-nr9d95duhpvvbdx6mqjedc.streamlit.app/Project" target="_blank">Payment</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://newwebpage-nr9d95duhpvvbdx6mqjedc.streamlit.app/Project" target="_blank">Project</a>
+        <a class="nav-link" href="https://blank-app-quobxypwoytpuhz3cchas6.streamlit.app/" target="_blank">Chatbot</a>
       </li>
     </ul>
   </div>
@@ -34,8 +36,6 @@ st.markdown("""
 # Start Homepage
 st.title("Homepage")
 st.write("Hi i am Williams")
-st.sidebar.success("Select a pages above.")
-Video = "https://www.youtube.com/watch?v=fWjsdhR3z3c"
 st.write("Welcome to my multi page")
 st.write("""In this webpage you can 
  discover, Buy and see my work""")
@@ -71,8 +71,6 @@ hide_st_style = """
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
-
-st.sidebar.text("Created by 💖 Williams")
 
 # ----CONTACT ME ----
 st.write("---")
