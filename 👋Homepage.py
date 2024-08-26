@@ -33,9 +33,6 @@ st.markdown("""
 st.title("Homepage")
 st.write("Hi i am Williams")
 st.write("Welcome to my multi page")
-st.write("""In this webpage you can 
- discover, Buy and see my work""")
-st.success("Check in the sidebar for more apps!")
 st.write("---")
 st.subheader("About me")
 st.write("I am a 10 years old boy who love to program in programing language")
