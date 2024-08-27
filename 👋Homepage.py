@@ -10,7 +10,7 @@ st.set_page_config(
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 
 st.markdown("""
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #DC0901;">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #E50900">
   <a class="navbar-brand" target="_blank">Multi app</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -18,9 +18,9 @@ st.markdown("""
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
      <li class="nav-item active">
-        <a class="nav-link" href="https://newwebpage-nr9d95duhpvvbdx6mqjedc.streamlit.app/" target="_blank">Home</a>
+        <a class="nav-link" href="https://newwebpage-nr9d95duhpvvbdx6mqjedc.streamlit.app/" target="_blank">About me</a>
       <li class="nav-item active">
-        <a class="nav-link" href="https://newwebpage-nr9d95duhpvvbdx6mqjedc.streamlit.app/" target="_blank">Project</a>
+        <a class="nav-link" href="https://agbanagbawilliams-mywebpage-app-vqxbm4.streamlit.app/" target="_blank">Project</a>
       <li class="nav-item">
         <a class="nav-link" href="https://blank-app-quobxypwoytpuhz3cchas6.streamlit.app/" target="_blank">Chatbot</a>
       </li>
@@ -30,12 +30,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Start Homepage
-st.title("Homepage")
+st.title("Williams")
 st.write("Hi i am Williams")
 st.write("Welcome to my multi page")
-st.write("""In this webpage you can 
- discover, Buy and see my work""")
-st.success("Check in the sidebar for more apps!")
 st.write("---")
 st.subheader("About me")
 st.write("I am a 10 years old boy who love to program in programing language")
