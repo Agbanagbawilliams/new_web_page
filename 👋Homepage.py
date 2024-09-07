@@ -20,7 +20,6 @@ st.markdown("""
      <li class="nav-item active">
         <a class="nav-link" href="https://newwebpage-nr9d95duhpvvbdx6mqjedc.streamlit.app/" target="_blank">About me</a>
       <li class="nav-item active">
-        <a class="nav-link" href="https://agbanagbawilliams-mywebpage-app-vqxbm4.streamlit.app/" target="_blank">Project</a>
       <li class="nav-item">
         <a class="nav-link" href="https://blank-app-quobxypwoytpuhz3cchas6.streamlit.app/" target="_blank">Chatbot</a>
       </li>
